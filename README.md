@@ -18,16 +18,28 @@ WP-API Extensions are available via [yarn] and [npm].
 
 Notice: This package depends on [WP-API](https://github.com/WP-API/node-wpapi).
 
-    $ yarn add wpapi
-    $ npm install --save wpapi
-
-Usage
-------------
-
 ```js
 import WPAPI from 'wpapi';
 import { registerWuxt } from 'wpapi-extensions';
 
 const wp = new WPAPI({/* options */});
-registerWuxt(wp);
+registerWuxt(wp); // registers all functions
 ```
+You can alse register the functions seperately:
+```js
+registerFrontPage(wp);
+registerMenu(wp);
+registerSlug(wp);
+registerCpt(wp);
+```
+
+Usage
+------------
+```js
+await wp.frontpage()
+await wp.menu()
+await wp.slug()
+await wp.cpt('movies')
+```
+
+A good description on the functions is also [here](https://github.com/northosts/wuxt#extensions-to-the-api-endpoints)
