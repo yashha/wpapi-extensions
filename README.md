@@ -43,3 +43,7 @@ await wp.cpt('movies')
 ```
 
 A good description on the functions is also [here](https://github.com/northosts/wuxt#extensions-to-the-api-endpoints)
+
+Credits
+------------
+Credits to @danielauener for creating the inital implementation.
