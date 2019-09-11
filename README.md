@@ -2,7 +2,7 @@
 [![npm (scoped with tag)](https://img.shields.io/npm/v/wpapi-extensions.svg?style=flat-square)](https://www.npmjs.com/package/wp-nuxt)
 [![MIT license](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](http://opensource.org/licenses/MIT)
 
-This package extends [WP-API](https://github.com/WP-API/node-wpapi) to add features like menu and custom post types.
+This package extends [WP-API](https://github.com/WP-API/node-wpapi) (the best wordpress api wrapper for node) to add features like menu and custom post type request functions.
 You need to install the [WUXT Headless WordPress API Extensions](https://wordpress.org/plugins/wuxt-headless-wp-api-extensions/) extension on your wordpress server.
 
 Installation
