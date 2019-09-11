@@ -25,6 +25,6 @@ Usage
 import WPAPI from 'wpapi';
 import { registerWuxt } from 'wpapi-extensions';
 
-const wp = new WPAPI({options});
+const wp = new WPAPI({/* options */});
 registerWuxt(wp);
 ```
