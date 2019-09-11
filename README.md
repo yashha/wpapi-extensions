@@ -46,4 +46,4 @@ A good description on the functions is also [here](https://github.com/northosts/
 
 Credits
 ------------
-Credits to @danielauener for creating the inital implementation.
+Credits to [@danielauener](https://github.com/danielauener) for creating the inital implementation.
