@@ -10,5 +10,5 @@ WP-API Extensions are available via [yarn] and [npm].
     $ yarn add wpapi-extensions
     $ npm install --save wpapi-extensions
 
-[yan]: https://yarn.pm/wpapi-extensions
+[yarn]: https://yarn.pm/wpapi-extensions
 [npm]: https://www.npmjs.org/package/wpapi-extensions
