@@ -10,7 +10,7 @@
   "devDependencies": {
     "@types/wpapi": "^1.1.0",
     "parcel-bundler": "^1.12.3",
-    "standard-version": "^6.0.1",
-    "typescript": "^3.5.1"
+    "standard-version": "^7.0.0",
+    "typescript": "^3.6.3"
   }
 }
