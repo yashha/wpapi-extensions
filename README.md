@@ -36,7 +36,7 @@ registerCpt(wp);
 Usage
 ------------
 ```js
-await wp.frontpage()
+await wp.frontPage()
 await wp.menu()
 await wp.slug()
 await wp.cpt('movies')
