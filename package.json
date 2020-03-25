@@ -4,7 +4,7 @@
   "main": "dist/index.js",
   "license": "MIT",
   "scripts": {
-    "build": "NODE_ENV=production parcel build index.ts",
+    "build": "NODE_ENV=production parcel build index.ts --experimental-scope-hoisting",
     "release": "standard-version && git push --follow-tags && yarn publish"
   },
   "devDependencies": {
