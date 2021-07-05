@@ -8,7 +8,7 @@
     "release": "standard-version && git push --follow-tags && yarn publish"
   },
   "devDependencies": {
-    "@types/wpapi": "^1.1.0",
+    "@types/wpapi": "^1.1.1",
     "parcel-bundler": "^1.12.4",
     "standard-version": "^7.1.0",
     "typescript": "^3.8.3"
